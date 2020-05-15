@@ -10,6 +10,9 @@ o	When the integer passed is a multiple of 5, the method should say Buzz.
 
 public class FizzBuzz {
     public String say(int numberToTranslate) {
+        if (numberToTranslate<0){
+            return "Error";
+        }
         if (numberToTranslate%5 == 0 && numberToTranslate%2 ==0) {
             return "Fizz Buzz";
         }
