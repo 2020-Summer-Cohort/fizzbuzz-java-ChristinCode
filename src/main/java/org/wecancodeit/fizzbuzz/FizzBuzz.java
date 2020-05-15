@@ -13,7 +13,7 @@ public class FizzBuzz {
         if (numberToTranslate<0){
             return "Error";
         }
-        if (numberToTranslate%5 == 0 && numberToTranslate%2 ==0) {
+        if (numberToTranslate%5 == 0 && numberToTranslate%2 ==0) { /* or I can use numberToTanslate % 10 == 0*/
             return "Fizz Buzz";
         }
         if (numberToTranslate%2 == 0) {
@@ -28,6 +28,5 @@ public class FizzBuzz {
 
         return "" + numberToTranslate;
     }
-
 
 }
