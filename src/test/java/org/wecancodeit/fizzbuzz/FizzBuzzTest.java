@@ -33,13 +33,13 @@ public class FizzBuzzTest {
     public void twoEquals2() {
         FizzBuzz Test = new FizzBuzz();
         String answer = Test.say(2);
-        assertEquals("2", answer);
+        assertEquals("Fizz", answer);
     }
     @Test
     public void threeEquals3() {
         FizzBuzz Test = new FizzBuzz();
         String answer = Test.say(3);
-        assertEquals("Fizz", answer);
+        assertEquals("3", answer);
     }
     @Test
     public void fiveEquals5() {
@@ -57,7 +57,13 @@ public class FizzBuzzTest {
     public void tenEquals10() {
         FizzBuzz Test = new FizzBuzz();
         String answer = Test.say(10);
-        assertEquals("Buzz", answer);
+        assertEquals("Fizz Buzz", answer);
+    }
+    @Test
+    public void elevenEquals11() {
+        FizzBuzz Test = new FizzBuzz();
+        String answer = Test.say(11);
+        assertEquals("Bang", answer);
     }
 
 
